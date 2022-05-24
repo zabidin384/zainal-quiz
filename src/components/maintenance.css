@@ -1,0 +1,32 @@
+.maintenance {
+	display: none;
+}
+.maintenanceTitle {
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 20px;
+}
+.maintenanceDesc {
+	font-size: 16px;
+	text-align: center;
+	margin: 0 20px;
+}
+.maintenance img {
+	width: 250px;
+	margin: 50px 0;
+}
+
+@media screen and (max-width: 992px) {
+	.maintenance {
+		position: relative;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		margin: auto;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}

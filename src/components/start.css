@@ -1,0 +1,51 @@
+.starts {
+	position: relative;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.starts img {
+	width: 250px;
+	margin: 50px;
+}
+.start {
+	width: 250px;
+	height: 100px;
+}
+.startInput {
+	width: 100%;
+	height: 30px;
+	border: none;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 18px;
+	margin-bottom: 15px;
+}
+.startInput:focus {
+	outline: none;
+	color: #2d254f;
+}
+.startButton {
+	width: 100%;
+	height: 30px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 18px;
+	font-weight: bold;
+}
+.startButton:hover {
+	background-color: #6057ac;
+	color: white;
+}
+
+@media screen and (max-width: 992px) {
+	.starts {
+		display: none;
+	}
+}
